@@ -36,7 +36,7 @@ services:
     environment:
       - NODE_ENV=development
       - PORT=3001
-      - FRONTEND_URL=http://localhost:8080
+      - FRONTEND_URL=http://localhost:8128
       - BACKEND_URL=http://localhost:3012
       - LOG_LEVEL=debug
       - RATE_LIMIT_WINDOW_MS=60000
